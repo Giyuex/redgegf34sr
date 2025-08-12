@@ -15,7 +15,7 @@
 
         body {
             font-family: 'Josefin Sans', sans-serif;
-            background: linear-gradient(135deg, #000000 0%, #0a0f1c 50%, #1a1a2e 100%);
+            background: linear-gradient(135deg, #000000 0%, #1a1610 50%, #2e2318 100%);
             min-height: 100vh;
             overflow-x: hidden;
             position: relative;
@@ -37,7 +37,7 @@
             height: 0;
             border-left: 30px solid transparent;
             border-right: 30px solid transparent;
-            border-bottom: 52px solid rgba(0, 100, 255, 0.04);
+            border-bottom: 52px solid rgba(191, 161, 130, 0.04);
             animation: float 8s ease-in-out infinite;
             filter: blur(0.5px);
         }
@@ -75,7 +75,7 @@
         .glass-card {
             background: rgba(0, 0, 0, 0.6);
             backdrop-filter: blur(20px);
-            border: 1px solid rgba(0, 100, 255, 0.3);
+            border: 1px solid rgba(191, 161, 130, 0.3);
             border-radius: 30px;
             padding: 60px 50px;
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
@@ -106,7 +106,7 @@
             border-radius: 50%;
             object-fit: cover;
             animation: pulse 2s ease-in-out infinite;
-            box-shadow: 0 15px 30px rgba(154, 122, 68, 0.4);
+            box-shadow: 0 15px 30px rgba(191, 161, 130, 0.4);
             border: 3px solid #bfa182;
             margin-bottom: 20px;
         }
@@ -114,9 +114,12 @@
         .brand-name {
             font-size: 2rem;
             font-weight: 700;
-            color: #bfa182;
+            background: linear-gradient(135deg, #bfa182 0%, #d4b896 50%, #e6c7a3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 0;
-            text-shadow: 0 0 20px rgba(154, 122, 68, 0.8);
+            text-shadow: 0 0 20px rgba(191, 161, 130, 0.8);
             letter-spacing: 1px;
         }
 
@@ -129,7 +132,7 @@
             font-size: 3.5rem;
             font-weight: 800;
             margin-bottom: 20px;
-            background: linear-gradient(135deg, #0064ff 0%, #0099ff 50%, #66ccff 100%);
+            background: linear-gradient(135deg, #bfa182 0%, #d4b896 50%, #e6c7a3 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -144,7 +147,7 @@
         }
 
         .subtitle-text {
-            background: linear-gradient(135deg, #0064ff 0%, #0099ff 50%, #66ccff 100%);
+            background: linear-gradient(135deg, #bfa182 0%, #d4b896 50%, #e6c7a3 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -174,7 +177,7 @@
             width: 12px;
             height: 12px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #0064ff, #0099ff);
+            background: linear-gradient(135deg, #bfa182, #d4b896);
             animation: bounce 1.4s ease-in-out infinite both;
         }
 
@@ -195,7 +198,7 @@
 
         .status-text {
             font-weight: 500;
-            background: linear-gradient(135deg, #0064ff 0%, #0099ff 50%, #66ccff 100%);
+            background: linear-gradient(135deg, #bfa182 0%, #d4b896 50%, #e6c7a3 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -203,7 +206,7 @@
 
         .opinion-form {
             background: rgba(0, 0, 0, 0.4);
-            border: 1px solid rgba(0, 100, 255, 0.3);
+            border: 1px solid rgba(191, 161, 130, 0.3);
             border-radius: 15px;
             padding: 30px;
             margin-top: 40px;
@@ -213,7 +216,7 @@
             font-size: 1.2rem;
             font-weight: 600;
             margin-bottom: 20px;
-            background: linear-gradient(135deg, #0064ff 0%, #0099ff 50%, #66ccff 100%);
+            background: linear-gradient(135deg, #bfa182 0%, #d4b896 50%, #e6c7a3 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -240,9 +243,9 @@
         }
 
         .opinion-input:focus {
-            border-color: #0064ff;
+            border-color: #bfa182;
             transform: scale(1.01);
-            box-shadow: 0 5px 15px rgba(0, 100, 255, 0.3);
+            box-shadow: 0 5px 15px rgba(191, 161, 130, 0.3);
         }
 
         .disclaimer {
@@ -253,7 +256,7 @@
         }
 
         .disclaimer-text {
-            background: linear-gradient(135deg, #0064ff 0%, #0099ff 50%, #66ccff 100%);
+            background: linear-gradient(135deg, #bfa182 0%, #d4b896 50%, #e6c7a3 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -261,7 +264,7 @@
 
         .send-btn {
             padding: 15px 30px;
-            background: linear-gradient(135deg, #0064ff 0%, #0099ff 100%);
+            background: linear-gradient(135deg, #bfa182 0%, #d4b896 100%);
             color: white;
             border: none;
             border-radius: 12px;
@@ -269,20 +272,20 @@
             font-size: 1rem;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0, 100, 255, 0.4);
+            box-shadow: 0 5px 15px rgba(191, 161, 130, 0.4);
             margin-top: 15px;
             width: 100%;
         }
 
         .send-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(0, 100, 255, 0.5);
-            background: linear-gradient(135deg, #0099ff 0%, #0064ff 100%);
+            box-shadow: 0 10px 25px rgba(191, 161, 130, 0.5);
+            background: linear-gradient(135deg, #d4b896 0%, #bfa182 100%);
         }
 
         .contact-info {
-            background: rgba(20, 25, 40, 0.3);
-            border: 1px solid rgba(100, 200, 255, 0.2);
+            background: rgba(45, 35, 25, 0.3);
+            border: 1px solid rgba(191, 161, 130, 0.2);
             border-radius: 15px;
             padding: 25px;
             margin-top: 40px;
@@ -300,10 +303,6 @@
             font-size: 1rem;
             font-weight: 500;
             letter-spacing: 0.5px;
-            background: linear-gradient(135deg, #0064ff 0%, #0099ff 50%, #66ccff 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
 
         .contact-email a {
@@ -361,7 +360,7 @@
     <div class="container">
         <div class="glass-card">
             <div class="logo-container">
-                <img src="de.png" alt="Giyuex Logo" class="custom-logo">
+                <img src="df.png" alt="Giyuex Logo" class="custom-logo">
                 <h2 class="brand-name">GIYUEX</h2>
             </div>
             
@@ -458,5 +457,4 @@
         });
     </script>
 </body>
-
 </html>
